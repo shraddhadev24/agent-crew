@@ -1,0 +1,9 @@
+Multi-Agent Orchestration Patterns
+
+A planner-executor pattern separates the agent responsible for decomposing a goal into subtasks from the agents responsible for executing each subtask. This separation makes each agent's prompt simpler and its failures easier to diagnose, compared to a single agent trying to plan and execute in one pass.
+
+Adding a reviewer or critic agent as a final step catches errors before they reach the end user, and enables a revise loop where the executor agent gets specific feedback rather than having to guess what went wrong.
+
+Observability matters more in multi-agent systems than single-agent ones, because failures can occur at any step in the chain. Logging each agent's input, output, and reasoning at every step makes it possible to trace exactly where a bad final result originated.
+
+Tool use, also called function calling, lets an agent call external functions such as a search tool or a database query rather than relying only on its own generated text. This grounds the agent's output in real data instead of the model's internal knowledge alone.

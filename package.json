@@ -1,0 +1,16 @@
+{
+  "name": "agent-crew",
+  "version": "1.0.0",
+  "description": "A multi-agent task orchestrator: a planner agent decomposes a goal, delegates to specialized sub-agents, and a reviewer agent validates the result before returning it.",
+  "main": "src/cli.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/cli.js",
+    "demo": "node src/cli.js --demo"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "@anthropic-ai/sdk": "^0.27.0"
+  },
+  "license": "MIT"
+}

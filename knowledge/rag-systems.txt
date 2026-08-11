@@ -1,0 +1,9 @@
+Retrieval-Augmented Generation Systems
+
+RAG systems combine a retrieval step, which finds relevant context from a knowledge base, with a generation step, where a language model produces an answer grounded in that retrieved context. This reduces hallucination compared to relying on a model's parametric knowledge alone.
+
+Chunking strategy significantly affects retrieval quality. Naive fixed-size chunking often splits sentences or loses context across chunk boundaries, while sentence-aware chunking with overlap preserves more coherent context per chunk.
+
+Evaluating RAG systems requires separating retrieval evaluation from generation evaluation, since a system can generate fluent, well-formatted answers grounded in the wrong retrieved chunks, and the failure would be invisible without checking retrieval independently.
+
+Production RAG systems typically add a re-ranking step after initial retrieval, using a cross-encoder model to reorder the top candidates by relevance before passing them to the generation step, improving precision on ambiguous queries.

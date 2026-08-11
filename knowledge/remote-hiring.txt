@@ -1,0 +1,9 @@
+Remote Hiring Trends
+
+Companies hiring remote engineers increasingly prioritize asynchronous communication skills over real-time collaboration ability, since distributed teams span multiple time zones. Take-home technical assessments have become more common than live whiteboard coding for senior roles, since they better simulate real working conditions.
+
+Forward Deployed Engineer roles have grown particularly in AI-native startups, where customer-facing technical staff are needed to customize deployments for enterprise clients. These roles combine software engineering with solution architecture and direct client interaction.
+
+Salary transparency in remote job postings has increased significantly, with many companies now listing compensation bands upfront to reduce negotiation friction across candidates in different countries and cost-of-living contexts.
+
+Referrals remain the highest-converting channel for remote hires, converting at a substantially higher rate than applications submitted through general job boards.
